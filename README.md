@@ -8,10 +8,10 @@
 6. 将首包重新写入tun隧道，并经过iptables转换发往最终目的地。  
 
 ## 流程图示
-![image](https://github.com/Allojpass/serviceAccess/assets/47267069/d96d29b7-6255-4235-9902-7e4f7ee9a2fe)
 服务调用场景图  
-![image](https://github.com/Allojpass/serviceAccess/assets/47267069/d7c082f0-9a50-45e9-a306-1dc58c6950ae)
+![image](https://github.com/Allojpass/serviceAccess/assets/47267069/d96d29b7-6255-4235-9902-7e4f7ee9a2fe)  
 算力路由节点处理数据包流程图  
+![image](https://github.com/Allojpass/serviceAccess/assets/47267069/d7c082f0-9a50-45e9-a306-1dc58c6950ae)
 
 ## 部署方式
 （保证linux系统能够支持tun隧道，安装好golang环境）
