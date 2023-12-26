@@ -7,7 +7,9 @@
 5. 运行选优算法获取最终选择结果，删除对应的iptables连接追踪表表项，并下发iptables的DNAT规则。  
 6. 将首包重新写入tun隧道，并经过iptables转换发往最终目的地。  
 
-## 流程图示
+## 流程及环境图示
+实验环境图  
+![云平台网络架构图](https://github.com/Allojpass/serviceAccess/assets/47267069/89a6b798-e3f5-48ea-a66b-69ea52c2a4ba)  
 服务调用场景图  
 ![image](https://github.com/Allojpass/serviceAccess/assets/47267069/d96d29b7-6255-4235-9902-7e4f7ee9a2fe)  
 算力路由节点处理数据包流程图  
